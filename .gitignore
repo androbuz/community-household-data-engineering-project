@@ -1,3 +1,17 @@
+# data files
+*.csv
+*.zip
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Local datasets
+**/data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
